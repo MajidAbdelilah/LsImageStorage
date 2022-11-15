@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+	<title>LsImageStorage</title>
+	<meta name="description" content="">
+
+	
+  <link rel="stylesheet" href="style_1.css">
+	
+</head>
+<body>
+    
+  <nav id=services>
+    <div>
+      <p>الخدمات</p>
+      <ul id=services_dropdown>
+	<li><a href="./index.html">تحويل الصورة الى رابط</a></li>
+      </ul>
+    </div>
+    <h1 class=inline_flex id=logo><a href=index.html>LsConvert</a></h1>
+    
+  </nav>
+  <div class=margin-top></div>
+  <div class="color-black margin-left-right">
+    
+    <form action="http:/localhost:9000/upload_image" enctype="multipart/form-data" method="post" id="form">
+    
+    <h1>تحويل الصورة الى رابط</h1>
+      
+      <label id=inputTag>اختر الصورة
+	<input id="image_file" accept="image/*" name="image_file" type="file" />
+</label>
+      <button class="btn btn-success" name="submit" type="submit">رفع</button>
+
+      <span id="fileName"></span>
+    <p id=file_size_warnning class="red"></p>
+    <p>ملاحظة: الصورة سيتم مسحها بعد 10 ايام ان ام يتم تحميلها</p>
+    </form>
+    
+  </div>
+  
+      
+    <div class=margin-top></div>
+    <div class=margin-top></div>
+    <div class=margin-top></div>
+    <div class=margin-top></div>
+    <div class="footer-div">
+    <footer class=color-black>
+      <div>
+	<h2>الخدمات</h2>
+	<p><a href="./index.html">تحويل الصورة الى رابط</a></p>
+      </div>
+      </div>
+    </footer> 
+    <script  src="./txt_to_url.js">
+    </script>
+    <!-- 
+     <script src="jquery-3.6.1.min.js"></script> 
+     <script src="test.js"></script> 
+-->
+</body>
+</html>

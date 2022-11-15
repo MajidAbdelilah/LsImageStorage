@@ -67,7 +67,7 @@ document.querySelector("#form").addEventListener("submit", function(e){
 	
     }
     
-    if(inputFile.size > 1000000){
+    if(inputFile.size > 5400000){
 	e.preventDefault();
 	document.querySelector("#file_size_warnning").textContent = "حجم الملف اكبر من الحجم المسموح به"
     }
