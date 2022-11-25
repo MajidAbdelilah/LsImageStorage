@@ -17,6 +17,28 @@
   <lastmod>2022-11-25T17:47:10+00:00</lastmod>
   <priority>0.80</priority>
 </url>
+<url>
+  <loc>https://lsimagestorage.netlify.app/get_image_url</loc>
+  <lastmod>2022-11-25T17:47:10+00:00</lastmod>
+  <priority>0.60</priority>
+</url>
+
+
+<url>
+  <loc>https://lsimagestorage.netlify.com/</loc>
+  <lastmod>2022-11-25T17:47:10+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://lsimagestorage.netlify.com/index.html</loc>
+  <lastmod>2022-11-25T17:47:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lsimagestorage.netlify.com/get_image_url</loc>
+  <lastmod>2022-11-25T17:47:10+00:00</lastmod>
+  <priority>0.60</priority>
+</url>
 
 
 </urlset>
