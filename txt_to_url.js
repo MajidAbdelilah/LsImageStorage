@@ -57,13 +57,13 @@ document.querySelector("#form").addEventListener("submit", function(e){
 
     }
     
-    if(localStorage.number_of_uses>5 && fileName.innerText != ""){
+    if(localStorage.number_of_uses>20 && fileName.innerText != ""){
 	e.preventDefault();
 	document.querySelector("#file_size_warnning").textContent = "تم تجاوز الحد الاقصى لعدد الاستعمال اليومي"
     }
     if(fileName.innerText == ""){
 	e.preventDefault();
-	document.querySelector("#file_size_warnning").textContent = "اختر ملف النص اولا"
+	document.querySelector("#file_size_warnning").textContent = "اختر الصورة اولا"
 	
     }
     
